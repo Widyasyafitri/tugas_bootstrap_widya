@@ -1,0 +1,9 @@
+body {
+  background: #eee;
+}
+
+card-img-top {
+  height: 23px;
+  object-fit: cover;
+  object-position: center;
+}

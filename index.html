@@ -69,7 +69,7 @@
         </button>
 
         <div
-          class="modal"
+          class="modal fade"
           tabindex="-1"
           role="dialog"
           aria-labelledby="loginModal"
@@ -78,7 +78,9 @@
           <div class="modal-dialog" role="document">
             <div class="modal-content">
               <div class="modal-header">
-                <h5 class="modal-title">Modal Title</h5>
+                <h5 class="modal-title">
+                  Please enter your email to reset password!
+                </h5>
                 <button
                   type="button"
                   class="close"
@@ -89,28 +91,25 @@
                 </button>
               </div>
               <div class="modal-body">
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
-                  dolorem optio eveniet. Temporibus, quod! Maxime praesentium
-                  quae qui magni asperiores vitae, ipsa vel soluta sunt, nam ea
-                  quaerat voluptatibus dolor!
-                </p>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Tenetur quaerat modi at cumque aut ipsum. Fugiat architecto
-                  dolorem atque error impedit, nemo aliquam sed vero quas
-                  reiciendis aut iure molestiae!
-                </p>
+                <div class="form-group">
+                  <label for="email">Email</label>
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    class="form-control"
+                  />
+                </div>
               </div>
               <div class="modal-footer">
-                <!-- <button
+                <button
                   type="button"
                   class="btn btn-secondary"
                   data-dismiss="modal"
                 >
                   Close
-                </button>-->
-                <button class="btn btn-primary" type="button">Login</button>
+                </button>
+                <button type="submit" class="btn btn-primary">Reset</button>
               </div>
             </div>
           </div>
